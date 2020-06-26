@@ -76,11 +76,6 @@
             border: 2px solid black;
             box-sizeing: border-box;
         }
-        .todoul li{
-            position: relative;
-            left: 50%;
-            transform: translate(-50%, -50%);
-        }
 
     </style>
 </head>
@@ -150,12 +145,14 @@
         </div>
     </div>
     <hr>
-    <h2 id="todo">To Do List</h2>
-    <form class="js-toDoForm flex_box">
-        <input type="text" class="js-toDoInput" placeholder="Write What To Do"/>
-    </form>
-    <ul class="js-ul todoul">
-    </ul>
+    <div>
+        <h2 id="todo">To Do List</h2>
+        <form class="js-toDoForm flex_box">
+            <input type="text" class="js-toDoInput" placeholder="Write What To Do"/>
+        </form>
+        <ul class="js-ul">
+        </ul>
+    </div>
     <script src="https://blakekim93.github.io/self_introduction/clock.js"></script>
     <script src="https://blakekim93.github.io/self_introduction/todolist.js"></script>
 </body>
